@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Css for Module List */
+.module-list {
+  width: 430px !important;
+  height: 470px !important;
+  background: #fefefe;
+  border-radius: 35px;
+  border: 2px solid lightgray;
+}
+.module-card {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around;
+  border-radius: 1rem;
+  border: 1px solid lightgray;
+  box-shadow: 0px 15px 10px -15px lightgray;
+  width: 400px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.module-details {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.profile-image {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  margin-left: 8px !important;
+  margin-top: 3px !important;
+}
+.duration {
+  margin-top: 25px;
+}
+.color-name {
+  color: blue;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Cards  */
+.img {
+  height: 150px;
+  width: 100px;
+  box-shadow: 0px 15px 10px -15px lightgray;
+  margin-left: 15px;
+}
+.img-card {
+  margin-left: 30px;
+}
+
+/* HOME PAGE */
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.description-div {
+  display: flex !important;
+  flex-direction: column;
+  text-align: left;
+}
+.hr {
+  width: 80px;
+  height: 4px;
+  margin-left: 0px !important;
+  background-color: seagreen;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Search bar  */
+
+.search-box {
+  margin-top: 19px;
+  /* width: 300px; */
+  margin-left: 10px;
+}
+
+/* Video player */
+.vedio-frame {
+  height: 400px;
+  width: 650px;
 }
