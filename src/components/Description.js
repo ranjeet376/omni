@@ -32,7 +32,7 @@ export default class Description extends Component {
         const { description } = this.state;
         return (
             <Col md={8} className="description-div">
-                <h1>Description</h1>
+                <h1>Description and details</h1>
                 <div className="line"> <hr className="hr" /> </div>
                 <p>{description}</p>
             </Col>
